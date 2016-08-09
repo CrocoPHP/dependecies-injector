@@ -1,5 +1,5 @@
 {
-    "name": "CrocoPHP/dependecies-injector",
+    "name": "crocophp/dependecies-injector",
     "type": "library",
     "description": "CrocCroc Core dependencies injection container ",
     "keywords": ["php" , "crocroc",  "container interop" ],
