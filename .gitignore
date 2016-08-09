@@ -1,0 +1,9 @@
+# Composer files
+composer.phar
+composer.lock
+vendor/
+nbproject
+#unit test report
+test/build
+.idea
+

@@ -1,0 +1,28 @@
+{
+    "name": "CrocoPHP/dependecies-injector",
+    "type": "library",
+    "description": "CrocCroc Core dependencies injection container ",
+    "keywords": ["php" , "crocroc",  "container interop" ],
+    "license": "GNU V3",
+    "authors": [
+        {
+            "name": "Christophe GARCIA",
+            "email": "crocophp@gmail.com",
+            "homepage": "http://php-christophe-garcia.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "container-interop/container-interop": "1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.*",
+        "mikey179/vfsStream": "1.6.*"
+    },
+    "autoload": {
+            "psr-4": {
+                "CrocCroc\\Container\\" : "src/"
+            }
+
+    }
+}
